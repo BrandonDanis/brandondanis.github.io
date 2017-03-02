@@ -1,0 +1,24 @@
+.wrapper
+{
+	height: 100%;
+  	padding: 50px;
+  	vertical-align: middle;
+	text-align: center;
+  	display: table-cell;
+}
+
+.header-section
+{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+	display: table;
+	background-color: #3498db;
+	color: #FFFFFF;
+}
+
+.header-container
+{
+	text-align: center;
+}
