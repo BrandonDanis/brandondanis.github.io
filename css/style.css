@@ -12,6 +12,10 @@ h1,h2,h3,h4
   	display: table-cell;
 }
 
+/**************************/
+/****** HEADER STUFF ******/
+/**************************/
+
 .header-section
 {
 	height: 100%;
@@ -62,8 +66,31 @@ h1,h2,h3,h4
 	text-align: center;
 }
 
+@media screen and (max-width: 1380px)
+{
+	.header-section .linkRow
+	{
+		width: 50%;
+	}
+}
 
+@media screen and (max-width: 1000px)
+{
+	.header-section .linkRow
+	{
+		width: 100%;
+	}
+}
 
+@media screen and (max-width: 500px)
+{
+	.header-section h1
+	{
+		font-size: 35px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
 
 /****************************/
 /****** Typed.js stuff ******/
