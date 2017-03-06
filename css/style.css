@@ -1,6 +1,11 @@
-h1,h2,h3,h4
+h1,h2,h3,h4,p
 {
 	font-family: 'Lato', sans-serif !important;
+}
+
+p
+{
+	font-weight: 300;
 }
 
 .wrapper
@@ -99,6 +104,35 @@ h1,h2,h3,h4
 		font-weight: 700;
 		text-transform: uppercase;
 	}
+}
+
+/**************************/
+/****** ABOUT SECTION ******/
+/**************************/
+
+.about-section
+{
+	width: 100%;
+	text-align: center;
+}
+
+.about-section .about-wrapper
+{
+	padding: 20px 50px;
+}
+
+.about-section .section-title
+{
+	width: 100%;
+	color: #3498db;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.about-section .description
+{
+	font-size: 20px;
+	padding: 25px 0px;
 }
 
 /****************************/
