@@ -28,7 +28,10 @@ p
 	text-align: center;
 	padding: 50px 0px;
 	display: table;
-	background-color: #3498db;
+	/*background-color: #3498db;*/
+	background-image: url("../docs/header.jpg");
+	background-position: center;
+	background-size: cover;
 	color: #FFFFFF;
 }
 
@@ -133,6 +136,31 @@ p
 {
 	font-size: 20px;
 	padding: 25px 0px;
+}
+
+
+/**************************/
+/****** ABOUT SECTION ******/
+/**************************/
+
+.projects-section
+{
+	width: 100%;
+	text-align: center;
+	background-color: #3498db;
+	color: #FFFFFF;
+}
+
+.projects-section .projects-wrapper
+{
+	padding: 20px 50px;
+}
+
+.projects-section .section-title
+{
+	width: 100%;
+	font-size: 40px;
+	font-weight: 700;
 }
 
 /****************************/
