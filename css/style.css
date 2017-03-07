@@ -3,9 +3,38 @@ h1,h2,h3,h4,p
 	font-family: 'Lato', sans-serif !important;
 }
 
+a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
 p
 {
 	font-weight: 300;
+}
+
+hr
+{
+	margin-top: 20px;
+	border-width: 3px;
+	max-width: 50px;
+}
+
+hr.primary
+{
+	border-color: #3498db;
+}
+
+hr.light
+{
+	border-color: #FFFFFF;
 }
 
 .wrapper
@@ -15,6 +44,12 @@ p
   	vertical-align: middle;
 	text-align: center;
   	display: table-cell;
+}
+
+.section .description
+{
+	font-size: 20px;
+	padding: 25px 0px;
 }
 
 /**************************/
@@ -131,13 +166,6 @@ p
 	font-size: 40px;
 	font-weight: 700;
 }
-
-.about-section .description
-{
-	font-size: 20px;
-	padding: 25px 0px;
-}
-
 
 /**************************/
 /****** ABOUT SECTION ******/
