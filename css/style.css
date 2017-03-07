@@ -23,8 +23,10 @@ p
 hr
 {
 	margin-top: 20px;
-	border-width: 3px;
-	max-width: 50px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	height: 2px;
+	max-width: 200px;
 }
 
 hr.primary
@@ -50,6 +52,12 @@ hr.light
 {
 	font-size: 20px;
 	padding: 25px 0px;
+}
+
+.section .section-title h1
+{
+	font-weight: 900;
+	text-transform: uppercase;
 }
 
 /**************************/
@@ -164,7 +172,6 @@ hr.light
 	width: 100%;
 	color: #3498db;
 	font-size: 40px;
-	font-weight: 700;
 }
 
 /**************************/
@@ -188,7 +195,6 @@ hr.light
 {
 	width: 100%;
 	font-size: 40px;
-	font-weight: 700;
 }
 
 /****************************/
