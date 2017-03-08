@@ -230,6 +230,12 @@ hr.light
 	padding-bottom: 10px;
 }
 
+.project-container img
+{
+	width: 100%;
+	height: auto;
+}
+
 /****************************/
 /****** Typed.js stuff ******/
 /****************************/
