@@ -208,6 +208,22 @@ hr.light
 	padding: 0px;
 }
 
+.project-btn
+{
+	background-color: #FFFFFF;
+    color: #3498db;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.project-btn:hover
+{
+	color: #3498db;
+	/*border-radius: 0px;*/
+}
+
 /****************************/
 /****** Typed.js stuff ******/
 /****************************/
