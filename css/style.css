@@ -224,6 +224,12 @@ hr.light
 	/*border-radius: 0px;*/
 }
 
+.project-container
+{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 /****************************/
 /****** Typed.js stuff ******/
 /****************************/
