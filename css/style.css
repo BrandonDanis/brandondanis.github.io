@@ -64,6 +64,16 @@ hr.light
 /****** HEADER STUFF ******/
 /**************************/
 
+.header-paralax
+{
+	background-image: url("../docs/header.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .header-section
 {
 	height: 100%;
@@ -72,9 +82,6 @@ hr.light
 	padding: 50px 0px;
 	display: table;
 	/*background-color: #3498db;*/
-	background-image: url("../docs/header.jpg");
-	background-position: center;
-	background-size: cover;
 	color: #FFFFFF;
 }
 
