@@ -197,6 +197,17 @@ hr.light
 	font-size: 40px;
 }
 
+.project-title h1
+{
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.project-container .description
+{
+	padding: 0px;
+}
+
 /****************************/
 /****** Typed.js stuff ******/
 /****************************/
