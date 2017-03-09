@@ -243,6 +243,60 @@ hr.light
 	height: auto;
 }
 
+/********************************/
+/****** EXPERIENCE SECTION ******/
+/********************************/
+
+.experience-section
+{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.experience-section .experience-wrapper
+{
+	padding: 20px 50px;
+}
+
+.experience-section .section-title
+{
+	width: 100%;
+	color: #3498db;
+	font-size: 40px;
+}
+
+.experience-section p
+{
+	font-size: 20px;
+}
+
+.job-container
+{
+	text-align: left;
+}
+
+.job-container .job-header
+{
+
+}
+
+.job-container .job-header h1
+{
+	font-weight: 900;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+
+.job-container .job-header p
+{
+	margin-bottom: 10px;
+}
+
+.job-container .job-body p
+{
+	font-size: 16px;
+}
+
 /****************************/
 /****** Typed.js stuff ******/
 /****************************/
