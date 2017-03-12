@@ -275,11 +275,6 @@ hr.light
 	text-align: left;
 }
 
-.job-container .job-header
-{
-
-}
-
 .job-container .job-header h1
 {
 	font-weight: 900;
@@ -296,6 +291,28 @@ hr.light
 .job-container .job-body p
 {
 	font-size: 16px;
+}
+
+/********************************/
+/****** CONTACT SECTION ******/
+/********************************/
+
+.contact-section
+{
+	width: 100%;
+	text-align: center;
+	background-color: #3498db;
+	color: #FFFFFF;
+}
+
+.contact-section .contact-wrapper
+{
+	padding: 20px 50px;
+}
+
+.contact-section p
+{
+	font-size: 20px;
 }
 
 /****************************/
