@@ -270,6 +270,12 @@ hr.light
 	font-size: 20px;
 }
 
+.experience-section .row
+{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
 .job-container
 {
 	text-align: left;
